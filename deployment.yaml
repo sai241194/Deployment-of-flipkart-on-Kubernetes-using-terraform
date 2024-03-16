@@ -13,7 +13,7 @@ spec:
         app: flipkart
     spec:
       containers:
-      - name: flipkart_container
+      - name: flipkart
         image: sai2411/flipkart:latest 
         ports:
         - containerPort: 80
